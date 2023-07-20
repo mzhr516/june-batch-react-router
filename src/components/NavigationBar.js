@@ -20,6 +20,9 @@ export const NavigationBar = () => {
               <Nav.Link>
                 <NavLink to="about">about us</NavLink>
               </Nav.Link>
+              <Nav.Link>
+                <NavLink to="/books">books</NavLink>
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
