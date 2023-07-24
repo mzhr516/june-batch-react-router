@@ -13,7 +13,7 @@ export const BooksPage = (props) => {
         </ul>
       </nav>
       
-      <Outlet />
+      <Outlet context={"hello world"}/>
     </div>
   );
 };
