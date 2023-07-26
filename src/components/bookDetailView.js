@@ -4,7 +4,6 @@ import { booksDetails } from "./bookNameList";
 
 export const BookDetailView = () => {
   const { index } = useParams();
-  //   console.log(param);
   const Details = booksDetails[index];
   console.log(Details);
   return (
