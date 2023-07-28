@@ -8,6 +8,7 @@ import { BooksPage } from "./BooksPage";
 import { CreateBook } from "./CreateBook";
 import { BookList } from "./BookList";
 import { BookDetailView } from "./bookDetailView";
+import { ProductDetailPage } from "./ProductDetailPage";
 
 export const AppRoutes = () => {
   return (
@@ -31,8 +32,8 @@ export const AppRoutes = () => {
       <Route path="/bookdetail/2" element={<>book 3</>} />
       <Route path="/bookdetail/3" element={<>book 4</>} /> */}
 
-      <Route path="/bookdetail/:index" element={<BookDetailView/>}/>
-      
+      <Route path="/bookdetail/:index" element={<BookDetailView />} />
+      <Route path="/productDetail/:id" element={<ProductDetailPage />} />
     </Routes>
   );
 };
